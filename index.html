@@ -1,16 +1,40 @@
 <!DOCTYPE html>
-
-<html lang="English">
-    <head>
-        <title>green-api-test</title>
-    
-        <link href="reset.css" rel="stylesheet" />
-        <link href="style.css" rel="stylesheet" />
-    </head>
+<html lang="en">
+<head>
+    <title>green API test</title>
+    <link href="reset.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://unpkg.com/@green-api/whatsapp-api-client/lib/whatsapp-api-client.min.js"> type="text/javascript"></script>
+    <script src="./script.js"></script>
+</head>
 
 <body>
+<div class="main-wrapper">
+    <div class="column-wrapper">
+        <div class="item-wrapper">
+            <input class="input" id="idInstance" name="idInstance" placeholder="idInstance" required type="text">
+            <input class="input" id="apiTokenInstance" name="apiTokenInstance" placeholder="apiTokenInstance" required
+                   type="text">
+            <button class="button" id="getSettings" type="button">getSettings</button>
+            <button class="button" id="getStateInstance" type="button">getStateInstance</button>
+        </div>
+        <div class="item-wrapper">
+            <input class="input" id="phoneReceivingMessages" name="phoneNumber" placeholder="wid" pattern="[0-9]{11}" required type="tel">
+            <input class="input" id="message" name="messageText" required type="text" value="Hello world!">
+            <button class="button" id="sendMessageButton" type="button">Send Message</button>
+        </div>
+        <div class="item-wrapper">
+            <input class="input" id="phoneReceivingFile" name="phoneNumber" placeholder="wid" pattern="[0-9]{11}" required type="tel">
+            <input class="input" id="fileUrl" name="fileUrl" placeholder="https://my.site.com/img/horse.png" type="text" >
+            <input class="input" id="fileName" name="fileExtention" placeholder="Write your file name and file extention"
+                   type="text">
+            <button class="button" id="sendFileByUrlButton" type="button">sendFileByUrl</button>
+        </div>  
+    </div>
+    <div class="column-wrapper">
+        <div class="heading">Answer:</div>
+        <output id="result"></output>
+    </div>
 
-    
-</body>
-
-</html>
+    <script src="./script.js"></script>
+</div>
