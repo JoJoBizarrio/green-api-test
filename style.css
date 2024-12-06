@@ -44,7 +44,7 @@ body {
 .button {
     cursor: pointer;
     background-color: rgb(200, 133, 255);
-    color: #000000;
+    border: none;
     margin-bottom: 10px;
 }
   
