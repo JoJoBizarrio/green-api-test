@@ -1,0 +1,46 @@
+[33m2ac7222[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{0}: checkout: moving from main to main
+[33m2ac7222[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{1}: rebase (finish): returning to refs/heads/main
+[33m2ac7222[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{2}: rebase (pick): + small fix
+[33mcaaee26[m HEAD@{3}: rebase (pick): + small fix
+[33m6c62c49[m HEAD@{4}: rebase (start): checkout HEAD~4
+[33mc31427e[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{5}: commit: + small fix
+[33meb14388[m HEAD@{6}: checkout: moving from dev_script to main
+[33m35e1fab[m[33m ([m[1;31morigin/dev_script[m[33m, [m[1;32mdev_script[m[33m)[m HEAD@{7}: commit: + small fix
+[33m6c62c49[m HEAD@{8}: checkout: moving from main to dev_script
+[33meb14388[m HEAD@{9}: commit: + small fix
+[33ma7f267d[m HEAD@{10}: pull --tags origin main: Fast-forward
+[33m3aeca96[m HEAD@{11}: checkout: moving from dev to main
+[33m9344839[m[33m ([m[1;31morigin/dev[m[33m, [m[1;32mdev[m[33m)[m HEAD@{12}: pull --tags origin dev: Fast-forward
+[33mf638454[m HEAD@{13}: checkout: moving from dev2 to dev
+[33mbe37dc0[m[33m ([m[1;31morigin/dev2[m[33m, [m[1;32mdev2[m[33m)[m HEAD@{14}: commit: +Asdsad
+[33m5a556c2[m HEAD@{15}: commit: asds
+[33m7d05edd[m HEAD@{16}: checkout: moving from dev_script to dev2
+[33m6c62c49[m HEAD@{17}: checkout: moving from dev2 to dev_script
+[33m7d05edd[m HEAD@{18}: checkout: moving from dev_script to dev2
+[33m6c62c49[m HEAD@{19}: pull (finish): returning to refs/heads/dev_script
+[33m6c62c49[m HEAD@{20}: pull (start): checkout 6c62c497f86015a18d7a3c988779cf8e42730679
+[33m43ad0e8[m HEAD@{21}: rebase (finish): returning to refs/heads/dev_script
+[33m43ad0e8[m HEAD@{22}: rebase (squash): add sendMessage, sendFileByUrl
+[33m2b04274[m HEAD@{23}: rebase (squash): # This is a combination of 2 commits.
+[33mc04bcf7[m HEAD@{24}: rebase (reword): add sendMessage, sendFileByUrl
+[33m834254f[m HEAD@{25}: rebase: fast-forward
+[33mca03560[m HEAD@{26}: rebase (start): checkout HEAD~3
+[33m6c62c49[m HEAD@{27}: rebase (abort): returning to refs/heads/dev_script
+[33mef04fdd[m HEAD@{28}: rebase (reword): +test
+[33maa018ba[m HEAD@{29}: rebase (reword): + sendMessage, sendFileByUrl
+[33m834254f[m HEAD@{30}: rebase: fast-forward
+[33mca03560[m HEAD@{31}: rebase (start): checkout HEAD~3
+[33m6c62c49[m HEAD@{32}: rebase (abort): returning to refs/heads/dev_script
+[33mca03560[m HEAD@{33}: rebase (start): checkout HEAD~3
+[33m6c62c49[m HEAD@{34}: pull --tags origin dev_script (finish): returning to refs/heads/dev_script
+[33m6c62c49[m HEAD@{35}: pull --tags origin dev_script (start): checkout 6c62c497f86015a18d7a3c988779cf8e42730679
+[33m6aa21ca[m HEAD@{36}: rebase (finish): returning to refs/heads/dev_script
+[33m6aa21ca[m HEAD@{37}: rebase (reword): + sendMessage, sendFileByUrl
+[33m834254f[m HEAD@{38}: rebase: fast-forward
+[33mca03560[m HEAD@{39}: rebase (start): checkout HEAD~3
+[33m6c62c49[m HEAD@{40}: rebase (abort): returning to refs/heads/dev_script
+[33mca03560[m HEAD@{41}: rebase (start): checkout HEAD~3
+[33m6c62c49[m HEAD@{42}: pull --tags origin dev_script: Fast-forward
+[33m834254f[m HEAD@{43}: checkout: moving from dev to dev_script
+[33mf638454[m HEAD@{44}: checkout: moving from main to dev
+[33m3aeca96[m HEAD@{45}: clone: from https://github.com/JoJoBizarrio/green-api-test.git
