@@ -72,7 +72,7 @@ const result = document.getElementById("result");
             apiTokenInstance: apiTokenInstance
         });
 
-        restAPI.file.sendFileByUrl(chatId, "nullorwahat", url, fileName).then((data) => {
+        restAPI.file.sendFileByUrl(chatId, null, url, fileName).then((data) => {
             result.textContent = getConvertedText(data);
         }).catch((error) => {
             console.error("Error:", error);
